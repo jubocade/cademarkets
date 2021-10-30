@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cademarkets/static/css/main.4d2311c2.chunk.css",
-    "main.js": "/cademarkets/static/js/main.8472c44b.chunk.js",
-    "main.js.map": "/cademarkets/static/js/main.8472c44b.chunk.js.map",
+    "main.js": "/cademarkets/static/js/main.efdd2058.chunk.js",
+    "main.js.map": "/cademarkets/static/js/main.efdd2058.chunk.js.map",
     "runtime-main.js": "/cademarkets/static/js/runtime-main.b6a07dcc.js",
     "runtime-main.js.map": "/cademarkets/static/js/runtime-main.b6a07dcc.js.map",
     "static/js/2.5d2a9a75.chunk.js": "/cademarkets/static/js/2.5d2a9a75.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b6a07dcc.js",
     "static/js/2.5d2a9a75.chunk.js",
     "static/css/main.4d2311c2.chunk.css",
-    "static/js/main.8472c44b.chunk.js"
+    "static/js/main.efdd2058.chunk.js"
   ]
 }
