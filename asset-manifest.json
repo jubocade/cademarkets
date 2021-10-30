@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cademarkets/static/css/main.4d2311c2.chunk.css",
+    "main.css": "/cademarkets/static/css/main.b3cd2316.chunk.css",
     "main.js": "/cademarkets/static/js/main.efdd2058.chunk.js",
     "main.js.map": "/cademarkets/static/js/main.efdd2058.chunk.js.map",
     "runtime-main.js": "/cademarkets/static/js/runtime-main.b6a07dcc.js",
@@ -8,13 +8,13 @@
     "static/js/2.5d2a9a75.chunk.js": "/cademarkets/static/js/2.5d2a9a75.chunk.js",
     "static/js/2.5d2a9a75.chunk.js.map": "/cademarkets/static/js/2.5d2a9a75.chunk.js.map",
     "index.html": "/cademarkets/index.html",
-    "static/css/main.4d2311c2.chunk.css.map": "/cademarkets/static/css/main.4d2311c2.chunk.css.map",
+    "static/css/main.b3cd2316.chunk.css.map": "/cademarkets/static/css/main.b3cd2316.chunk.css.map",
     "static/js/2.5d2a9a75.chunk.js.LICENSE.txt": "/cademarkets/static/js/2.5d2a9a75.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6a07dcc.js",
     "static/js/2.5d2a9a75.chunk.js",
-    "static/css/main.4d2311c2.chunk.css",
+    "static/css/main.b3cd2316.chunk.css",
     "static/js/main.efdd2058.chunk.js"
   ]
 }
