@@ -1,0 +1,146 @@
+.markets > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.search-bar-container {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.search-bar-container input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-row, .all-coins-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.all-coins-info-wrapper {
+    margin-top: 30px;
+    cursor: pointer;
+    padding: 5px 2px 5px 2px;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+}
+
+.all-coins-info-wrapper:hover {
+    border-top: 1px solid #00B3B3;
+    border-bottom: 1px solid #00B3B3;
+}
+
+.coin-symbol, .coin-symbol-header {
+    width: 120px;
+}
+
+.coin-price, .coin-price-header {
+    width: 190px;
+}
+
+.coin-price-change, .coin-price-change-header {
+    width: 190px;
+}
+
+.coin-high-low, .coin-high-low-header {
+    width: 260px;
+}
+
+.coin-market-cap, .coin-market-cap-header {
+    width: 230px;
+}
+
+.mobile-version-wrapper {
+    display: none;
+}
+
+.load-more-button-container {
+    width: 1200px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.load-more-button-container button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.header-row h3 {
+    color: white;
+}
+
+.all-coins-info-wrapper h2 {
+    color: #E5E5E5;
+    font-weight: normal;
+}
+
+.loader {
+    color: white;
+    font-size: 18px;
+}
+
+@media(max-width: 1300px) {
+    .markets {
+        width: 100%;
+        margin: auto;
+    }
+
+    .header-row, .all-coins-info-wrapper {
+        display: none;
+    }
+
+    .search-bar-container {
+        width: 80%;
+    }
+
+    .mobile-version-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile-coin-info-wrapper {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 250px;
+        border: 2px solid #444444;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    .mobile-coin-info-wrapper:hover {
+        border: 2px solid #00B3B3;
+    }
+
+    .mobile-coin-info-wrapper h3 {
+        margin-top: 20px;
+        color:  white;
+    }
+
+    .mobile-coin-info-wrapper h2 {
+        margin-top: 10px;
+        color:#E5E5E5;
+        font-weight: normal;
+    }
+
+    .load-more-button-container {
+        width: 90%;
+    }
+}

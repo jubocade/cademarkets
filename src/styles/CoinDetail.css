@@ -1,0 +1,36 @@
+.selected-coin-name {
+    color: #00B3B3;
+}
+.coin-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coin-info-container h3 {
+    color:  #E5E5E5;
+}
+
+.coin-info-container p {
+    width: 800px;
+    color: white;
+}
+
+.coin-info-container * {
+    margin-top: 10px;
+}
+
+.loader {
+    color: white;
+    font-size: 18px;
+}
+
+@media(max-width: 1024px) {
+    /* .coin-info-container {
+      align-items: center;
+    } */
+    
+    .coin-info-container p {
+        width: 90%;
+    }
+}

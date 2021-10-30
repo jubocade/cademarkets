@@ -1,0 +1,76 @@
+.homepage {
+    background-color: #181A20;
+}
+section {
+    margin-top: 20px;
+}
+
+.section-one h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.register-button-homepage {
+    display: block;
+    margin: auto;
+    padding: 12px;
+    background-color: #00B3B3;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.section-two .top-coins-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.coin-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.coin-container:hover {
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+
+.coin-container > h3, .coin-container > h1 {
+    color: white;
+}
+
+.coin-image-container img{
+    height: 100px;
+    width: 100px;
+}
+
+.loader {
+    color: white;
+    font-size: 18px;
+}
+
+@media(max-width: 1024px) {
+    .section-two .top-coins-container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .coin-image-container img{
+        width: 100px;
+    }
+
+    .coin-container {
+        margin-top: 20px;
+    }
+}

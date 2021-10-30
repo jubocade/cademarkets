@@ -1,0 +1,163 @@
+nav {
+    height: 80px; /* Mobilee */
+    display: flex; /* Mobilee */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px; /* Mobilee */
+    padding-right: 30px; /* Mobilee */
+    background-color: #171717;
+}
+
+.logo h1 {
+    color: #00B3B3;
+}
+
+.nav-links {
+    width: 550px; /* Mobilee */
+    display: flex; /* Mobilee */
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-links li {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-links li:hover {
+    background-color: #00B3B3;
+    color: black;
+}
+
+#buy-crypto:hover i {
+    color: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    top: -500px;
+    background-color: #171717;
+}
+
+.visible {
+    margin-top: 560px;
+}
+
+.mobile-nav-links {
+    width: 100%;
+    min-height: 200px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.mobile-nav-links li {
+    color: white;
+    width: 100%;
+}
+
+.bars-container {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.bars-container i {
+    color: #00B3B3;
+}
+
+.buy-crypto-popup {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    background-color: #0B0E11;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.buy-crypto-popup ul {
+    list-style-type: none;
+}
+
+#buy-crypto {
+    position: relative;
+}
+
+#buy-crypto:hover .buy-crypto-popup {
+    display: block;
+}
+
+#buy-crypto:hover > i {
+    transform: rotateX(180deg);
+}
+
+#buy-crypto> i {
+    color: white;
+}
+
+#buy-crypto-mobile i {
+    color: white;
+}
+
+@media(max-width: 1024px) {
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-nav-links {
+        display: flex;
+    }
+
+    .mobile-nav-links li {
+        text-align: center;
+        padding: 5px;
+        border-radius: 8px;
+        display: block;
+        width: 90%;
+    }
+
+    .dropdown-menu {
+        display: flex;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+    }
+
+    .bars-container {
+        display: block;
+    }
+
+    .buy-crypto-popup {
+        position: static;
+        background-color: #0B0E11;
+        width: 100%;
+        transition: 0.5s ease-out;
+        min-height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .buy-crypto-popup ul {
+        list-style-type: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .buy-crypto-popup ul  li {
+        text-align: left;
+    }
+}

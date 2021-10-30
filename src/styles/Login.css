@@ -1,0 +1,50 @@
+.login > h1 {
+    text-align: center;
+    color: white;
+}
+
+.login-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container form > div {
+    margin-top: 20px;
+}
+
+.login-container form > div label {
+    font-size: 20px;
+    color: white;
+}
+
+.login-container form > div input {
+    height: 35px;
+    width: 350px;
+    font-size: 16px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.login-container form > div input[type = submit] {
+    padding-left: 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-container form > div input[type = submit]:hover {
+    transition: 0.5s ease;
+    background-color: #00B3B3;
+}
+
+@media(max-width: 825px) {
+    .login-container form {
+        width: 100%;
+    }
+
+    .login-container form > div input {
+        width: 100%;
+    }
+}
