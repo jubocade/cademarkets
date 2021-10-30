@@ -16,8 +16,6 @@ const Homepage = () => {
       fetchData();
   }, []);
 
-  console.log(topCoins)
-
   setInterval(fetchData, 300000);
     return (
         <div className="homepage">

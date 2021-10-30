@@ -21,7 +21,7 @@ const App = () => {
                         <h4 className="prices-update-info">Prices Are Updating In Every 5 Minutes!
                         </h4>
                        <Switch>
-                           <Route path="/" exact component={Homepage} />
+                           <Route path="/cademarkets" exact component={Homepage} />
                            <Route path="/coin/:coinId" exact component={CoinDetail} />
                            <Route path="/login" exact component={Login} />
                            <Route path="/register" exact component={Register} />
